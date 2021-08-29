@@ -6,6 +6,7 @@ public class Main {
 	    /*
 	    Homework
 	     */
-        System.out.println("Homework");
+        double a = 0/.0f;
+        System.out.println(a);
     }
 }
