@@ -34,10 +34,19 @@ public class Main {
         int a = 5;
         int b = 10;
         int s = a*b;
-        System.out.println(s);
+    /*
+    12. Записать в виде инструкции присваивания формулу вычисления площади трапеции: s = (a+b)⋅h/2;
+    */
+        double c = 3; // osnovanie 1
+        double d = 4; // osnovanie 2
+        double f = 5; // visota
+        double g; // ploshad trapecii
+        g = (c+d)*f/2;
+        }
+
 
 
 
 
     }
-}
+
