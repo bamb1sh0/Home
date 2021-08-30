@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.function.Function;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,18 +23,18 @@ public class Main {
     */
         double y;
         double x = 1.0;
-        y = -2.7*x*x*x + 0.23*x*x - 1.4;
+        y = -2.7*Math.pow(x,3) + 0.23*x*x - 1.4;
     /*
     8. Записать в виде инструкции присваивания формулу пересчета веса из фунтов в килограммы (один фунт — 405,9 г).
     */
         double funt;
-        double kg = 1000;
+        int kg = 1000;
         funt = 405.9/kg;
     /*
     10. Записать в виде инструкции присваивания формулу вычисления площади прямоугольника.
     */
-        byte a = 5;
-        byte b = 10;
+        byte a = 10;
+        byte b = 12;
         int s = a*b;
     /*
     12. Записать в виде инструкции присваивания формулу вычисления площади трапеции: s = (a+b)⋅h/2;
@@ -53,7 +55,6 @@ public class Main {
         j = 5;
         sc = 2*Math.PI*j*(h+j);
         vc = Math.PI*j*j*h;
-
 
 
         }
