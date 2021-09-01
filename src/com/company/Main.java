@@ -1,8 +1,6 @@
 package com.company;
 
 
-import com.sun.org.apache.xerces.internal.dom.AbortException;
-
 public class Main {
 
     public static void main(String[] args) {
