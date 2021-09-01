@@ -6,6 +6,7 @@ public class Enums {
         Colors busColor = Colors.Yellow;
         System.out.println("This bus is " +busColor);
         System.out.println("Today is " +Days.WEDNESDAY);
+        System.out.println("This wall is " +ColorsNew.White.getTitle());
 
 
     }
@@ -16,10 +17,12 @@ enum Colors {
 }
 enum Days{
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+
+
 }
 enum ColorsNew{
     Black ("Черный"),
-    White ("белый");
+    White ("Белый");
 
     private String title;
     ColorsNew (String title){
