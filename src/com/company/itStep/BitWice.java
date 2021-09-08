@@ -1,3 +1,4 @@
+package com.company.itStep;
 public class BitWice {
 
     public static void main(String[] args){
