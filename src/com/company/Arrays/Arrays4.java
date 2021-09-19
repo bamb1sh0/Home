@@ -76,10 +76,13 @@ public class Arrays4 {
             if (i%2==0)
                 for (int j = 0; j < numCols; j++)
                     arr[i][j] = i * numCols + j + 1;
-                else if (i%2!=0)
+            else
+                for (int j = numCols - 1; j >= 0; j--)
+                    arr[i][j] = i * numCols + (numCols - j);
+    }
 
     }
-}
+
 
 
 
