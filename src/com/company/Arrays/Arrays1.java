@@ -5,6 +5,14 @@ import java.util.Random;
 public class Arrays1 {
     static int size = 10;
     static int[] arr = new int[size];
+    public static final String ANSI_BLACK = "\u001B[30m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void main(String[] args) {
         //arr = new int[]{1,2,6,8,34,4,6,7,11,5};
@@ -60,7 +68,7 @@ public class Arrays1 {
 
     public static void reverse() {
         for (int i = 0; i < size / 2; i++)
-            swap(i, size-i-1);
+            swap(i, size - i - 1);
     }
 
     public static void swap(int i, int j) {
@@ -72,12 +80,15 @@ public class Arrays1 {
     public static int find(int element) {
         int index = -1;
         for (int i = 0; i < size; i++)
-            if (arr[i] == element){
+            if (arr[i] == element) {
                 index = i;
+            }
+        return index;
     }
-            return index;
+
+    //Напечатать два элемента массива красным
     }
-}
+
 
 
 

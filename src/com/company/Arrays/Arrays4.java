@@ -4,12 +4,24 @@ public class Arrays4 {
     private static int numRouth = 5;
     private static int numCols = 6;
     private static int[][] arr = new int[numRouth][numCols];
+    public static final String ANSI_BLACK = "\u001B[30m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_WHITE = "\u001B[37m";
+    private static int first;
+    private static int second;
+
 
     public static void main(String[] args) {
         fillOrder();
         //System.out.println(arrToString());
-        //System.out.println(arrToStringAlined());
+        //System.out.println(arrToStringAllied());
         //fillOrderUD();
+        printColor();
 
 
         StringBuilder result = new StringBuilder();
@@ -41,7 +53,8 @@ public class Arrays4 {
             for (int j = 0; j < arr[i].length; j++) {
                 result.append(arr[i][j]);
                 if (j != arr[i].length - 1)
-                    result.append((separator));
+                    result.append((separator));{
+                }
             }
             result.append("\n");
         }
@@ -49,7 +62,7 @@ public class Arrays4 {
 
     }
 
-    public static String arrToStringAlined() {
+    public static String arrToStringAllied() {
         StringBuilder result = new StringBuilder();
         String pad = "     ";
         for (int i = 0; i < arr.length; i++) {
@@ -65,15 +78,17 @@ public class Arrays4 {
         }
         return result.toString();
     }
-    public static void fillOrderUD(){
+
+    public static void fillOrderUD() {
         for (int i = 0; i < numRouth; i++)
             for (int j = 0; j < numCols; j++)
                 arr[i][j] = i * numCols + j + 1;
 
     }
-    public static void fillSnake(){
+
+    public static void fillSnake() {
         for (int i = 0; i < numRouth; i++)
-            if (i%2==0)
+            if (i % 2 == 0)
                 for (int j = 0; j < numCols; j++)
                     arr[i][j] = i * numCols + j + 1;
             else
@@ -81,7 +96,24 @@ public class Arrays4 {
                     arr[i][j] = i * numCols + (numCols - j);
     }
 
+    //Напечатать два элемента массива красным
+    public static void printColor() {
+        for (int i = 0; i < arr.length; i++) {
+            if (i == first || i == second)
+
+                System.out.println(ANSI_RED);
+
+
+            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
+            System.out.print(ANSI_WHITE);
+        }
+
+
     }
+}
+
+
 
 
 
