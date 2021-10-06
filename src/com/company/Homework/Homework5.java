@@ -3,6 +3,7 @@ package com.company.Homework;
 public class Homework5 {
     public static void main(String[] args) {
         buildFigurePattern25();
+        //7. Отсортировать элементы массива в возрастающем порядке.
         int[] arr = new int[10];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 50);
