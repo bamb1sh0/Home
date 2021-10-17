@@ -1,4 +1,4 @@
-package Methods1;
+package com.company.Methods1;
 
 import java.util.Arrays;
 

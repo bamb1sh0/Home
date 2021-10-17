@@ -1,4 +1,4 @@
-package oopClasses;
+package com.company.oopClasses;
 
 enum Genres{Fantasy, SciFi, Mystery, Thriller, Romance};
 

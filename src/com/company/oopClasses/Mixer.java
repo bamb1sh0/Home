@@ -1,4 +1,4 @@
-package oopClasses;
+package com.company.oopClasses;
 
 public class Mixer {
     private double coldTemp;

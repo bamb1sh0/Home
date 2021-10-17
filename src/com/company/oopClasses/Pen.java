@@ -1,12 +1,12 @@
-package oopClasses;
+package com.company.oopClasses;
 
 public class Pen{
-    private oopClasses.Colors color;
+    private Colors color;
 
-    Pen(oopClasses.Colors color){
+    Pen(Colors color){
         this.color = color;
     }
-    public oopClasses.Colors getColor(){
+    public Colors getColor(){
         return color;
     }
 
