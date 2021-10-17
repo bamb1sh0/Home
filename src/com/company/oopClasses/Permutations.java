@@ -1,4 +1,4 @@
-package Methods;
+package oopClasses;
 
 
 public class Permutations {

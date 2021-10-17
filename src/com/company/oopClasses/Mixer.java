@@ -1,4 +1,4 @@
-package Methods;
+package oopClasses;
 
 public class Mixer {
     private double coldTemp;

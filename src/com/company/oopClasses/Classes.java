@@ -1,4 +1,4 @@
-package Methods;
+package oopClasses;
 
 public class Classes {
     public static void main(String[] args) throws IncorrectNominalException {

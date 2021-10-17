@@ -1,4 +1,4 @@
-package Methods;
+package oopClasses;
 
 enum Genres{Fantasy, SciFi, Mystery, Thriller, Romance};
 

@@ -1,4 +1,4 @@
-package Methods;
+package oopClasses;
 
 public class Account{
     private double amount = 0;

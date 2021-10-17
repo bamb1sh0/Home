@@ -1,4 +1,4 @@
-package com.company.Methods;
+package Methods1;
 
 public class Recursion {
     static int n = 5;
