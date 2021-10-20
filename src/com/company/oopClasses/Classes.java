@@ -20,7 +20,7 @@ public class Classes {
         Switch switch1 = new Switch();
         System.out.println(switch1.isState());
 
-        Account account = new Account();
+        Account1 account = new Account1();
         account.addMoney(100);
         System.out.println("Сумма: "+account.getAmount());
 
