@@ -9,6 +9,7 @@ public class DeckOfCards {
        // System.out.print("\u2666");
         Deck deck = new Deck();
         deck.printDeck(deck.getInitDeck());
+        deck.printDeck(deck.giveOut(18));
     }
 }
 
