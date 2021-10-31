@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dfdd05e-d654-4b44-b75e-eee5b0444f30" name="Default Changelist" comment="123">
-      <change afterPath="$PROJECT_DIR$/com/company/itStep/CycleFor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/company/itStep/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/company/itStep/While1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/company/itStep/BitWice.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/itStep/BitWice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/company/itStep/CycleFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/itStep/CycleFor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +45,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.CycleFor2">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CycleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.itStep.CycleFor" />
       <module name="LadikAlexey" />
@@ -107,17 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CycleFor2" />
@@ -137,6 +133,8 @@
       <updated>1631116611711</updated>
       <workItem from="1631116612778" duration="17000" />
       <workItem from="1631116768736" duration="8913000" />
+      <workItem from="1631377473802" duration="83000" />
+      <workItem from="1631377568758" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1631118168783</created>
@@ -166,47 +164,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <option name="LAST_COMMIT_MESSAGE" value="123" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1631125548344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631125548344" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1631125548344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631125548344" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1631125548344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631125548344" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1631125548344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631125548344" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1631118163866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631118163866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1631118163866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631118163866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1631118163866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631118163866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1631118163866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631118163866" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1631118193032">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1631118193032" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631118120793">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631118120793" />
   </component>
 </project>
