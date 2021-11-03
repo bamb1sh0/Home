@@ -15,14 +15,14 @@ public class Work1 {
         int i;
         for (i = 0; i < arr.length; i++) {
             if (arr[i]==0) {
-                min=i; //b[i];
+                min=i; 
                 break;
             }
         }
         int max = arr.length;
         for (i = min+1; i < args.length; i++) {
             if (arr[i]==0) {
-                max=i;//b[i];
+                max=i;
                 break;
             }
         }
