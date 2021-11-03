@@ -26,10 +26,10 @@ public class CycleFor2 {
 
             //Запрашивать в цикле у пользователя имя, пока оно не станет непустым
 
-
+            
             Scanner scanner = new Scanner(System.in);
             String name = "";
-            while (name.isBlank()){
+            while (name.isEmpty()){          //name.isBlank
                 System.out.println("Enter your name");
                 System.out.println("Your name: " +scanner.nextLine());
             }

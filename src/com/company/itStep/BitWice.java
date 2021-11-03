@@ -71,41 +71,39 @@ public class BitWice {
         /*Задание 10. Найти и вывести на консоль минимальное из двух чисел
         M и N, используя только побитовые и арифметические операции (без использования условного оператора).*/
 
-        byte a10 = 100, b10 = 1;
-        boolean rs = a10 <= b10;
-        System.out.println(rs);
+        int numbTask10 = 15;
+        int numberTask10 = 6;
+        int minimalNumber = numberTask10 ^ ((numbTask10 ^ numberTask10) & -(numbTask10 << numberTask10));
+        System.out.println("Минимальное число " + numbTask10 + " и " + numberTask10 + ": " + minimalNumber);
 
         /*Задание 11. Посчитать и вывести на консоль количество единичных
         битов в числе N. Вывести на консоль исходное число в двоичном виде и результат.*/
 
-        int a11 = 124;
+        int numbTask11 = 124;
         int count = 0;
-        for (int i=0; i<10; i++)
-        {
-            if ((a11>>i) % 2 == 1)
-            count++;
+        for (int i = 0; i < 8; i++) {
+            if ((numbTask11 >> i) % 2 == 1)
+                count++;
         }
-        System.out.println(Integer.toBinaryString(a11) +" количество единичных битов " +count);
+        System.out.println(Integer.toBinaryString(numbTask11) + " количество единичных битов " + count);
 
         /*Задание 12. Проверить, есть ли в двоичной записи числа n хотя бы
         один 0. Используя только побитовые и условные операторы.
         Вывести на консоль исходное число в двоичном виде и результат.*/
 
 
+        int numbTask12 = 23;
+        System.out.println(Integer.toBinaryString(numbTask12));
+        System.out.println(binaryZeros(23) + " (" + Integer.toBinaryString(numbTask12) + ")");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    public static int binaryZeros(int numbTask12) {
+        int count = 0;
+        while (numbTask12 != 0) {
+            count += (~numbTask12) & 1;
+            numbTask12 >>>= 1;
+        }
+        return count;
 
     }
 }

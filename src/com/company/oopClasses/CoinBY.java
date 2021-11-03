@@ -8,7 +8,7 @@ public class CoinBY{
         this.nominal = nominal;
         switch (nominal){
             case 1: weight = 1; break;
-            case 2, 10: weight = 2; break;  //case 10: weight = 2;
+          //  case 2, 10: weight = 2; break;  //case 10: weight = 2;
             case 5: weight = 5; break;
             case 20: weight = 4; break;
             case 50: weight = 7; break;

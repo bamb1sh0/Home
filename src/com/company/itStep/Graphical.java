@@ -1,3 +1,5 @@
+package com.company.itStep;
+
 import javax.swing.*;
 
 public class Graphical {

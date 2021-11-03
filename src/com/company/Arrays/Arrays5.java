@@ -25,7 +25,7 @@ public class Arrays5 {
         fillRandom();
         print();
         //bubbleSort();
-        //gnomeSort();
+        gnomeSort();
         //insertionSort();
         //selectionSort();
         //combSort();
@@ -52,12 +52,16 @@ public class Arrays5 {
     public static void gnomeSort() {
         for (int i = 1; i < size; i++) {
             for (int j = i; j > 0 && arr[j] < arr[j - 1]; j--)
-                swap(j, j - 1);
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
         }
     }
 
     private static void swap(int j, int i) {
-        int temp =arr[1];
+        int temp =arr[i];
         arr[i]=arr[j];
         arr[j] = temp;
     }
